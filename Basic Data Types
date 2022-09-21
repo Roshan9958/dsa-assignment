@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstdio>
+#include<iomanip>
+
+using namespace std;
+
+int main()
+{
+    // Complete the code.
+    int a=0;
+    cin>>a;
+    cout<<a<<endl;
+    long  b=0;
+    cin>>b;
+    cout<<b<<endl;
+    char d=0;
+    cin>>d;
+    cout<<d<<endl;
+    float e=0;
+    cin>>e;
+    cout<<fixed<<setprecision(3)<<e<<endl;
+    double h=0;
+    cin>>h;
+    cout<<fixed<<setprecision(9)<<h<<endl;
+
+
+
+ 
+return 0;
+
+}
